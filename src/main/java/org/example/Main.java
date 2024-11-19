@@ -13,7 +13,7 @@ public class Main {
         System.out.println(basicPlan);
 
         // (healthplans dizisi String[] tipinde olmalı)
-        String[] healthplans = new String[3];  // Sağlık planlarını tutacak dizi
+        String[] healthplans = new String[3];  // Sağlık planlarını tutacak.
         Employee employee = new Employee(101, "John Doe", "john.doe@example.com", "password123", healthplans);
 
         // Sağlık planları
