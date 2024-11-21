@@ -19,7 +19,7 @@ public class Main {
         // Sağlık planları
         employee.addHealthPlan(0, "Basic Health Plan");
         employee.addHealthPlan(1, "Premium Health Plan");
-        employee.addHealthPlan(1, "VIP Health Plan"); // Error mesajı basılmalı
+        employee.addHealthPlan(1, "VIP Health Plan"); // Error mesajı basılır
         System.out.println(employee);
 
         // Company oluştur (developerNames dizisi String[] tipinde olmalı)
